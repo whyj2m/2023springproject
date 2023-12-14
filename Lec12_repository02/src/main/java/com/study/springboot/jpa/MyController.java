@@ -4,7 +4,6 @@ package com.study.springboot.jpa;
 import java.util.List;
 import java.util.Optional;
 
-import org.eclipse.tags.shaded.org.apache.xpath.operations.Mod;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Controller;
@@ -75,14 +74,14 @@ public class MyController {
 	   		return "select_name_list";
 	    }
 	
-//	@RequestMapping("/selectByNameLikeOrder")
+//	@RequestMapping("/selectNameSort")
 //	public String selectByNameLikeOrder(@RequestParam("name") String search, Model model) {
 //		String name = search + "%";
 //		Sort sort =  Sort.by(Sort.Order.desc("name"));
 //		
-//		List<Member> result = memberService.selectNameLike(name, sort);
+//		List<Member> result = memberService.selectNameSort(name, sort);
 //		model.addAttribute("members", result);
-//		return "select_name_list_sort";
+//		return "select_name_list";
 //	}
 	
 }

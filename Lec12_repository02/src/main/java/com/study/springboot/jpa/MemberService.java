@@ -54,9 +54,9 @@ public class MemberService {
 	        return member;
 	    }
 
-//	
-//	public List<Member> selectNameLike(String search, Sort sort) {
-//		List<Member> member = memberRepository.findByNameLike(search, sort);
+	
+//	public List<Member> selectNameSort(String search, Sort sort) {
+//		List<Member> member = memberRepository.findByNameSort(search, sort);
 //		return member;
 //	}
 	
